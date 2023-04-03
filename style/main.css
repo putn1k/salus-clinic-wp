@@ -1630,14 +1630,14 @@ strong {
 }
 .staff-person__photo img {
   display: block;
-  width: 300px;
+  width: 245px;
   height: 300px;
 }
 .staff-person__meta {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 300px;
+  max-width: 245px;
   height: 100%;
   padding: 16px;
 }
