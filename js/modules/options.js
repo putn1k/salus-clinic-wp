@@ -64,7 +64,7 @@ export const Options = {
     },
     Staff: {
       slidesPerView: 1,
-      spaceBetween: 30,
+      spaceBetween: 20,
       navigation: {
         prevEl: '.staff__prev',
         nextEl: '.staff__next',
