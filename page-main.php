@@ -182,7 +182,7 @@
         <div class="swiper-slide staff-person">
           <div class="staff-person__photo">
             <img src="<?=get_image_url_fallback( $person['photo']['url'] ); ?>"
-                 width="300"
+                 width="245"
                  height="300"
                  alt="<?= $person['photo']['alt']; ?>">
           </div>
