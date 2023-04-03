@@ -14,7 +14,7 @@ define( 'USER_SETTINGS', array(
 ) );
 
 function get_style() {
-  $ver = '?v=1.0.0';
+  $ver = '?v=1.0.1';
   wp_enqueue_style('style', THEME_PATH );
   wp_enqueue_style( 'vendor', THEME_PATH.'/style/vendor-bundle.css' );
   wp_enqueue_style( 'main', THEME_PATH.'/style/main.css'.$ver );
@@ -22,7 +22,7 @@ function get_style() {
 }
 
 function get_scripts() {
-  $ver = '?v=1.0.0';
+  $ver = '?v=1.0.1';
   wp_enqueue_script( 'vendor', THEME_PATH.'/js/vendor-bundle.js', null, null, false);
   wp_enqueue_script( 'main', THEME_PATH.'/js/main.js'.$ver, null, null, false);
   wp_localize_script( 'vendor', 'WP_Options', USER_SETTINGS );
