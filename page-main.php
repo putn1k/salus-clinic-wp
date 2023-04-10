@@ -84,8 +84,19 @@
 <?php endif; ?>
 
 <section class="features">
-  <div class="hd hd--h2 features__banner"
-       aria-hidden="true">Мы открылись</div>
+<?php $features_services = get_field( 'features_services' ); ?>
+<?php if($features_services): ?>
+  <div class="features__banner services">
+    <div class="container">
+      <h2 class="indent-reset hd hd--h2 services__title">Направления и услуги:</h2>
+      <ul class="list-reset services__list">
+        <?php foreach ($features_services as $service) : ?>
+        <li><?= $service['item']; ?></li>
+        <?php endforeach; ?>
+      </ul>
+    </div>
+  </div>
+<?php endif; ?>
   <h2 class="visually-hidden">Особенности нашего медицинского центра</h2>
   <div class="container">
     <ul class="list-reset features__list">
