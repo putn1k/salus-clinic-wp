@@ -1470,9 +1470,7 @@ strong {
 }
 .features__banner {
   margin-bottom: 1.5em;
-  padding: 1.4em 1em;
 
-  text-align: center;
   color: var(--white);
 
   background-color: var(--accent);
@@ -1520,6 +1518,28 @@ strong {
     width: 100px;
     height: 100px;
   }
+}
+
+.services {
+  padding: 1.4em 1em;
+}
+.services__title {
+  margin-bottom: 16px;
+
+  text-align: center;
+}
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -5px;
+}
+.services__list > li {
+  margin: 5px;
+  padding: 0.4em 1.4em;
+
+  border: 1px solid currentColor;
+  border-radius: 99em;
 }
 
 .advantages {
